@@ -1,0 +1,10 @@
+/**/output
+/operations/vpn-tools/digital-media-eu.vpn.tgz
+node_modules
+.envrc
+.DS_Store
+.terraform
+/ansible/devops-secrets/
+terraform/keycloak/secrets.tfvars
+/terraform/register_domain/scripts/mailjet_api_secrets.yaml
+__pycache__

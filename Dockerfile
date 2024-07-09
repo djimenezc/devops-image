@@ -45,7 +45,7 @@ ADD https://gitsecret.jfrog.io/artifactory/api/gpg/key/public git-secrets-key
 #    cat git-secrets-key | apt-key add -
 
 RUN apt-get update && \
-    apt-get install -y python3 pip make git openssh-client git-secret jq python3-venv curl && \
+    apt-get install -y python3 pip make git openssh-client git-secret jq python3-venv curl unzip && \
     curl -s -L -o /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_${TARGETARCH} && \
     chmod 755 /usr/local/bin/yq
 
